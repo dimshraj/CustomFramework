@@ -1,0 +1,211 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CustomFrameworkPrivate",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CustomFrameworkPrivate"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BTManager",
+        "printedName": "BTManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BTManager",
+                "printedName": "CustomFrameworkPrivate.BTManager",
+                "usr": "s:22CustomFrameworkPrivate9BTManagerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22CustomFrameworkPrivate9BTManagerC6apiKeyACSS_tcfc",
+            "mangledName": "$s22CustomFrameworkPrivate9BTManagerC6apiKeyACSS_tcfc",
+            "moduleName": "CustomFrameworkPrivate",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22CustomFrameworkPrivate9BTManagerC5startyyF",
+            "mangledName": "$s22CustomFrameworkPrivate9BTManagerC5startyyF",
+            "moduleName": "CustomFrameworkPrivate",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22CustomFrameworkPrivate9BTManagerC4stopyyF",
+            "mangledName": "$s22CustomFrameworkPrivate9BTManagerC4stopyyF",
+            "moduleName": "CustomFrameworkPrivate",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:22CustomFrameworkPrivate9BTManagerC",
+        "mangledName": "$s22CustomFrameworkPrivate9BTManagerC",
+        "moduleName": "CustomFrameworkPrivate",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CustomFrameworkPrivate",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "CustomFrameworkPrivate"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/dim\/DEV\/CustomFrameworkPrivate\/CustomFrameworkPrivate\/Worker.swift",
+      "kind": "StringLiteral",
+      "offset": 286,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/dim\/DEV\/CustomFrameworkPrivate\/CustomFrameworkPrivate\/Worker.swift",
+      "kind": "StringLiteral",
+      "offset": 366,
+      "length": 27,
+      "value": "\"central.state is .unknown\""
+    },
+    {
+      "filePath": "\/Users\/dim\/DEV\/CustomFrameworkPrivate\/CustomFrameworkPrivate\/Worker.swift",
+      "kind": "StringLiteral",
+      "offset": 442,
+      "length": 29,
+      "value": "\"central.state is .resetting\""
+    },
+    {
+      "filePath": "\/Users\/dim\/DEV\/CustomFrameworkPrivate\/CustomFrameworkPrivate\/Worker.swift",
+      "kind": "StringLiteral",
+      "offset": 522,
+      "length": 31,
+      "value": "\"central.state is .unsupported\""
+    },
+    {
+      "filePath": "\/Users\/dim\/DEV\/CustomFrameworkPrivate\/CustomFrameworkPrivate\/Worker.swift",
+      "kind": "StringLiteral",
+      "offset": 605,
+      "length": 32,
+      "value": "\"central.state is .unauthorized\""
+    },
+    {
+      "filePath": "\/Users\/dim\/DEV\/CustomFrameworkPrivate\/CustomFrameworkPrivate\/Worker.swift",
+      "kind": "StringLiteral",
+      "offset": 687,
+      "length": 30,
+      "value": "\"central.state is .poweredOff\""
+    },
+    {
+      "filePath": "\/Users\/dim\/DEV\/CustomFrameworkPrivate\/CustomFrameworkPrivate\/Worker.swift",
+      "kind": "StringLiteral",
+      "offset": 766,
+      "length": 40,
+      "value": "\"central.state is .poweredOn \""
+    },
+    {
+      "filePath": "\/Users\/dim\/DEV\/CustomFrameworkPrivate\/CustomFrameworkPrivate\/Worker.swift",
+      "kind": "StringLiteral",
+      "offset": 805,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/dim\/DEV\/CustomFrameworkPrivate\/CustomFrameworkPrivate\/Worker.swift",
+      "kind": "StringLiteral",
+      "offset": 856,
+      "length": 27,
+      "value": "\"central.state is unnknown\""
+    },
+    {
+      "filePath": "\/Users\/dim\/DEV\/CustomFrameworkPrivate\/CustomFrameworkPrivate\/Worker.swift",
+      "kind": "StringLiteral",
+      "offset": 1205,
+      "length": 7,
+      "value": "\"start\""
+    },
+    {
+      "filePath": "\/Users\/dim\/DEV\/CustomFrameworkPrivate\/CustomFrameworkPrivate\/Worker.swift",
+      "kind": "StringLiteral",
+      "offset": 1253,
+      "length": 6,
+      "value": "\"stop\""
+    },
+    {
+      "filePath": "\/Users\/dim\/DEV\/CustomFrameworkPrivate\/CustomFrameworkPrivate\/Worker.swift",
+      "kind": "StringLiteral",
+      "offset": 147,
+      "length": 8,
+      "value": "\"CustomFrameworkPrivate.BTWorker\""
+    }
+  ]
+}

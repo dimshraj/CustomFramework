@@ -1,0 +1,11 @@
+framework module CustomFrameworkPrivate {
+  umbrella header "CustomFrameworkPrivate.h"
+
+  export *
+  module * { export * }
+}
+
+module CustomFrameworkPrivate.Swift {
+  header "CustomFrameworkPrivate-Swift.h"
+  requires objc
+}
