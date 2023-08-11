@@ -41,11 +41,11 @@ class BTWorker: NSObject, CBCentralManagerDelegate {
     }
 
     func start() {
-        // Реализация старта работы с BTCentral
+        print("start")
     }
 
     func stop() {
-        // Реализация остановки работы с BTCentral
+        print("stop")
     }
 
     // Другие функции и методы делегата CBCentralManagerDelegate
